@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>آلتي الحاسبة</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator-screen" contenteditable="true"></div>
+        
+        <div class="calculator-buttons">
+            <!-- أزرار الأرقام والعمليات الأساسية -->
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="/" class="operation">/</button>
+            
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="*" class="operation">*</button>
+            
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button value="-" class="operation">-</button>
+            
+            <button value="0">0</button>
+            <button value=".">.</button>
+            <button value="=" class="equal">=</button>
+            <button value="+" class="operation">+</button>
+            
+            <!-- زر الجذر التربيعي -->
+            <button value="sqrt" class="sqrt">√</button>
+
+            <!-- زري الأقواس -->
+            <button value="(">(</button>
+            <button value=")">)</button>
+
+            <!-- أزرار "C"، "الحذف" في صف واحد -->
+            <button value="clear" class="clear">C</button>
+            <button value="backspace" class="backspace">DEL</button>
+
+            <!-- أزرار sin، cos، وزر ± -->
+            <button value="sin" class="sin">sin</button>
+            <button value="cos" class="cos">cos</button>
+            <button value="negate" class="negate">±</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
